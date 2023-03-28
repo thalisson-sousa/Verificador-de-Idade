@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Modelo de Exercico</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div class="containerAno">
+            <p>Ano de Nascimento: 
+                <input type="number" id="ano">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="sexoMasculino" checked>
+                <label for="sexoMasculino">Masculino</label>
+                <input type="radio" name="radsex" id="sexoFeminino">
+                <label for="sexoFeminino">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" id="botao" onclick="verificaIdade()">
+            </p>
+        </div>
+        
+        <div class="resultado">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <a href="https://www.linkedin.com/in/thalisson-sousa-8398b0152/", style="text-decoration: none; color: azure;">Thalisson</a> Dev-Frontend Freelancer</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
